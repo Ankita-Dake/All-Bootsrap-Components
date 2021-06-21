@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+                        /* body {font-family: Arial, Helvetica, sans-serif;} */
+             /* .con{box-sizing: border-box;} */
+
+            input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            }
+
+            input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+            /* .container { */
+            /* border-radius: 5px; */
+            /* background-color: #f2f2f2; */
+            /* padding: 20px; */
+            /* } */
+
+        </style>
+    </head>
+    <body>
+        <nav id="navbar-example2" class="navbar navbar-light " style="background-color: mediumspringgreen">
+            <a class="navbar-brand" href="allcomponent.html">Home</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#res">Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#con">contact us</a>
+              </li>
+              <!-- <li class="nav-item"> -->
+                <!-- <a class="nav-link" href="#about">About</a> -->
+              <!-- </li> -->
+                                                      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#one">Application</a>
+                  <a class="dropdown-item" href="#two">Quotes</a>
+                  <!-- <div role="separator" class="dropdown-divider"></div> -->
+                  <!-- <a class="dropdown-item" href="#three">three</a> -->
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <br><br>
+          <!-- Home -->
+          <div data-spy="scroll" data-target="navbar-example2" data-offset="0">
+            <h4 id="Info" style="text-align: center; color: darkblue;">Information </h4>
+            <p style="text-align: center;"><b><em>This is Scrollpy component</em></b></p>
+                <div class="container" style="background-color: #f2f2f2;">
+                    <div class="row">
+                        <p><b>What is Python Programming Language?</b></p>
+                        <p>Python is an object-oriented programming language created by Guido Rossum in 1989. It is ideally designed for rapid prototyping of complex applications. It has interfaces to many OS system calls and libraries and is extensible to C or C++. Many large companies use the Python programming language,
+                             including NASA, Google, YouTube, BitTorrent, etc.</p>
+                        <p>Python is an object-oriented programming language created by Guido Rossum in 1989. It is ideally designed for rapid prototyping of complex applications. It has interfaces to many OS system calls and libraries and is extensible to C or C++. Many large companies 
+                            use the Python programming language, including NASA, Google, YouTube, BitTorrent, etc.</p>
+                    </div>
+                </div>
+                <br>
+                <!-- Registration -->
+            <h4 id="res" style="color: navy; text-align: center;">Registration Form </h4><br>
+            
+            <!-- <h2 style=" text-align: center; padding-top: 10px;color:black; " > -->
+                <!-- Personal Details -->
+            <!-- </h2> -->
+            <div class="container" style=" padding-top: 10px; background-color: #f2f2f2;">
+              <div class="row">
+                <div class="col-md-6">
+                    <form id="demo"></form>
+                       <div class="form-group" ></form>
+                           <label for="inputfirst">First Name</label></form>
+                           <input type="text" class="form-control" id="inputfirst"></form>
+                       </div></form>
+                       <div class="form-group"></form>
+                           <label for="inputlast">Last Name</label></form>
+                           <input type="text" class="form-control" id="inputlast"></form>
+                       </div></form>
+                       <div class="form-row"></form>
+                         <div class="form-group col-md-6"></form>
+                           <label for="inputEmail4">Email</label></form>
+                           <input type="email" class="form-control" id="inputEmail4"></form>
+                         </div></form>
+                         <div class="form-group col-md-6"></form>
+                           <label for="inputPassword4">Password</label></form>
+                           <input type="password" class="form-control" id="inputPassword4"></form>
+                         </div></form>
+                       </div></form>
+                       <div class="form-row"></form>
+                           <div class="form-group col-md-6"></form>
+                               <label for="inputPhone">Phone No. </label></form>
+                               <input type="number" class="form-control" id="inputPhone"></form>
+                           </div></form>
+                           <div class="form-group col-md-6"></form>
+                               <label for="inputskill">Skill</label></form>
+                               <input type="text" class="form-control" id="inputskill"></form>
+                           </div></form>
+                       </div></form>
+                       <div class="form-row"></form>
+                         <div class="form-group col-md-6"></form>
+                           <!-- <label for="inputgender">Gender</label> --></form>
+                           <p>Please select your gender</p></form>
+                           <input type="radio"  id="inputmale" name="gender" value="male"></form>
+                           <label for="male" >Male</label></form>
+                           <input type="radio"  id="inputfemale" name="gender" value="female"></form>
+                           <label for="male" >Female</label></form>
+                         </div></form>
+                         <div class="form-group col-md-6"></form>
+                             <label for="education">Choose your education</label></form>
+                             <select id="education"></form>
+                                 <option value="mca">MCA</option></form>
+                                 <option value="mcs">MCS</option></form>
+                                 <option value="bca">BCA</option></form>
+                                 <option value="bcs">BCS</option></form>
+                                 <option value="mba">MBA</option></form>
+                                 <option value="be">B.E</option></form>
+                             </select></form>
+                         </div></form>
+                       </div></form>
+                       <div class="form-group"></form>
+                         <label for="inputAddress">Address</label></form>
+                         <input type="text" class="form-control" id="inputAddress" placeholder="1234 M</form>ain St">
+                       </div></form>
+                       <div class="form-group"></form>
+                         <label for="inputAddress2">Address 2</label></form>
+                         <input type="text" class="form-control" id="inputAddress2" placeholder="Apart</form>ment, studio, or floor">
+                       </div></form>
+                       </form>
+                         <div class="form-group"></form>
+                           <label for="inputCity">City</label></form>
+                           <input type="text" class="form-control" id="inputCity"></form>
+                         </div></form>
+                         </form>
+                       <div class="form-group"></form>
+                          <button type="submit" class="btn btn-primary">Submit</button></form>
+                       </div></form>
+                     </form></form>
+                       </form>
+                </div>
+                <div class="col-md-6">
+                  <img src="img/res1.jpg " class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <br>
+            <!-- Contact us -->
+            <h4 id="con" style="color: orangered; text-align: center;">Contact us</h4><br>
+
+            <div class="container" style="background-color: #f2f2f2;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/contact.jpg " class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Contact Form</h3>
+                    <form >
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- About us -->
+            <h4 id="res"></h4>
+            <p></p>
+            <br>
+            <h4 id="one" style="color: brown; text-align: center;">Appliction</h4>
+            <br>
+            <div class="container" style=" background-color: #f2f2f2;"> 
+              <p><b>Aplications for Python</b></p> 
+               <p>Python is used in many application domains. Here's a sampling.
+                
+                The Python Package Index lists thousands of third party modules for Python.
+                Web and Internet Development
+                Python offers many choices for web development:
+                
+                Frameworks such as Django and Pyramid.
+                Micro-frameworks such as Flask and Bottle.
+                Advanced content management systems such as Plone and django CMS.
+                Python's standard library supports many Internet protocols:
+                
+                HTML and XML
+                JSON
+                E-mail processing.
+                Support for FTP, IMAP, and other Internet protocols.
+                Easy-to-use socket interface.</p>
+               <p style="font-weight: bold;"> Scientific and Numeric</p>
+               <p> Python is widely used in scientific and numeric computing:
+                SciPy is a collection of packages for mathematics, science, and engineering.
+                Pandas is a data analysis and modeling library.
+                 computing.
+                The Software Carpentry Course teaches basic skills for scientific computing, running bootcamps and providing open-access teaching materials.</p>
+
+            </div>
+            <h4 id="two" style="text-align: center; color: darkmagenta;">Quotes</h4><br>
+            <div class="container" style="background-color: #f2f2f2;">
+            <p style="font-weight: bold;">Quotes about Python</p>
+            <p> Python is used successfully in thousands of real-world business applications around the world, 
+              including many large and mission critical systems. Here are some quotes from happy Python users:</p>
+            
+              <p style="font-weight: bold;">YouTube.com</p>
+              <p>"Python is fast enough for our site and allows us to produce maintainable features in record times
+                , with a minimum of developers," said Cuong Do, Software Architect, YouTube.com.
+              </p>
+              <p style="font-weight: bold;">Industrial Light & Magic </p>
+              <p>"Python plays a key role in our production pipeline. Without it a project the size of Star Wars: Episode II would have been very difficult to pull off. From crowd rendering to batch processing to compositing, Python binds all things together," said Tommy Burnette, Senior Technical Director, Industrial Light & Magic.
+              
+              "Python is everywhere at ILM. It's used to extend the capabilities of our applications, as well as
+               providing the glue between them. Every CG image we create has involved Python somewhere in the process,
+               " said Philip Peterson, Principal Engineer, Research & Development, Industrial Light & Magic.</p>
+              
+              <p style="font-weight: bold;">Google</p>
+              <p>"Python has been an important part of Google since the beginning, and remains so as the system grows and evolves. Today dozens of Google engineers use Python, and we're looking for more people with skills in this language.
+              " said Peter Norvig, director of search quality at Google, Inc.</p>
+            </div>
+            <!-- <h4 id="three">three</h4> -->
+            <!-- <p>...</p> -->
+          </div>
+          </div>
+    </body>
+</html>
